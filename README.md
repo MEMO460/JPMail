@@ -54,6 +54,10 @@ To set up the JPMail project, ensure you have the following:
 - **Issue**: The current interface is outdated and not user-friendly.
 - **Solution Needed**: Modernize the UI to make it more visually appealing and user-friendly. Add new functions and plugins to assist users with daily tasks.
 
+### 5. `Shared Contacts`
+- **Issue**: Shared Contacts adds global SQL-based address books to Roundcube. It can be global per IMAP host but currently only works on Roundcube webmail. We need to make it work with other applications (e.g., BlueMail). Note that Collected Recipients on Roundcube mail work on other mail applications.
+- **Solution Needed**: Modify Shared Contacts to function like Collected Recipients, ensuring compatibility with other mail applications.
+
 ## Additional Information
 
 ### About Roundcube Webmail

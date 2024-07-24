@@ -58,6 +58,10 @@ To set up the JPMail project, ensure you have the following:
 - **Issue**: Shared Contacts adds global SQL-based address books to Roundcube. It can be global per IMAP host but currently only works on Roundcube webmail. We need to make it work with other applications (e.g., BlueMail). Note that Collected Recipients on Roundcube mail work on other mail applications.
 - **Solution Needed**: Modify Shared Contacts to function like Collected Recipients, ensuring compatibility with other mail applications.
 
+### 6. `Server error: Can't connect to server`
+- **Issue**: When composing an email for more than 10 minutes, clicking the send button results in a "can't connect to server" error. This is likely due to the session expiring after 10 minutes.
+- **Solution Needed**: Prevent the session from expiring while composing an email to avoid losing the composed message and encountering server connection issues.
+
 ## Additional Information
 
 ### About Roundcube Webmail
